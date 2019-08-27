@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -17,14 +17,15 @@ button {
     outline: none;
     cursor: pointer;
     font-size: 200%;
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 32, 32);
     box-shadow: 0.15em 0.15em 0.1em rgba(0, 0, 0, 0.4);
+    border-radius: 0.05em;
 }
 
 span {
     font-size: 200%;
-    stroke: black;
+    stroke: rgb(32, 32, 32);
     color: white;
     text-shadow: 0.05em 0.05em rgba(0, 0, 0, 0.4);
 }
