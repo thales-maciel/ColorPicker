@@ -10,6 +10,7 @@ $('#btn').click(function () {
     $("span").text(color)
 })
 
+// Get a new color when page is loaded
 $(document).ready(function () {
     var symbols = "0123456789ABCDEF";
     var color = "#"
