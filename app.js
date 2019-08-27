@@ -1,0 +1,23 @@
+$('#btn').click(function () {
+    var symbols = "0123456789ABCDEF";
+    var color = "#"
+
+    for (let i = 0; i < 6; i++) {
+        color = color + symbols[Math.floor(Math.random() * 16)];
+    }
+    console.log(color);
+    $("body").css("background-color", color);
+    $("span").text(color)
+})
+
+$(document).ready(function () {
+    var symbols = "0123456789ABCDEF";
+    var color = "#"
+
+    for (let i = 0; i < 6; i++) {
+        color = color + symbols[Math.floor(Math.random() * 16)];
+    }
+    console.log(color);
+    $("body").css("background-color", color);
+    $("span").text(color)
+})
