@@ -1,3 +1,4 @@
+// Get a new color when button is clicked
 $('#btn').click(function () {
     var symbols = "0123456789ABCDEF";
     var color = "#"
